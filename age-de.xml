@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!-- age classification (age-label.com) -->
 <!-- label generator: age-label.com -->
-<!-- file type: age.xml -->
   <age-declaration>
     <ageblock-basic>
-      <age-issuer>*.lovetolisten.de/*</age-issuer>
+      <age-issuer>.lovetolisten.de/</age-issuer>
       <last-change>2025-03-30</last-change>
       <country>de</country>
-      <label-version>2.0</label-version>
+      <label-version>1.0</label-version>
       <revisit-after>1days</revisit-after>
     </ageblock-basic>
-    <ageblock-country>
-      <country-default></country-default>
-    </ageblock-country>
     <ageblock-labeltype>
       <httpheader>false</httpheader>
       <htmlmeta>false</htmlmeta>
-      <phraselabel>false</phraselabel>
-      <agesubmit>false</agesubmit>
       <label-z>false</label-z>
-      <alternate></alternate>
       <xmlfile>true</xmlfile>
       <default-age>18</default-age>
     </ageblock-labeltype>
-    <ageblock-labeltype-definition>
+    <ageblock-labeltype-definition>        
       <labeltype-xmlfile>
-        <label class="website">
-          <age>18</age>
-          <scope>*.lovetolisten.de/*</scope>
+      <label class="website">
+        <age>18</age>
+        <min-age>0</min-age>
+        <default-age>18</default-age>
+        <scope>*.lovetolisten.de</scope>
         </label>
       </labeltype-xmlfile>
     </ageblock-labeltype-definition>
